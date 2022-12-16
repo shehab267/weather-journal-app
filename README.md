@@ -3,6 +3,7 @@
 ##### Weather Journal App (Front End Developer Udacity Nanodegree)
 
 <img src="media/udacity-review-logo-big.o.png" width= 150px>
+
 ###### _My Second Project_
 
 ## Overview
@@ -30,15 +31,15 @@ This project requires you to create an asynchronous web app that uses Web API an
 
 ## Results
 
-### home Page
+#### home Page
 
 <img src="./media/home.png">
 
-### Cold Weather
+#### Cold Weather
 
 <img src="./media/cold.png">
 
-### Worm Weather
+#### Worm Weather
 
 <img src="./media/hot.png">
 
