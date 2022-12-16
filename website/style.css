@@ -1,0 +1,166 @@
+/* Start Variables */
+:root {
+  --main-color: #0c1e45f0;
+  --sec-color: #0e104e97;
+  --main-text-color: #f0d43a;
+  --sec-text-color: #f0d53acb;
+  --main-margin: auto !important;
+}
+/* Don't forget to add fallback for variables */
+
+/* End Variables */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+}
+
+#app {
+  /* display: grid;
+  grid-auto-rows: minmax(150px, auto); */
+  /* grid-template-columns:  */
+  height: 100vh;
+  /* background: #f23557; */
+  color: #f0d43a;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+
+  background-image: url(home.jpg);
+  background-size: cover;
+  -webkit-transition: all 1500ms;
+  transition: all 1500ms;
+  position: relative;
+}
+#app .overLay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 15%);
+}
+
+#holderEntry {
+  background: rgba(59, 74, 107, 0.5);
+  width: 39%;
+  margin: var(--main-margin);
+  border-radius: 11px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 2000ms;
+  transition: max-height 2000ms;
+}
+/* 
+* Show and hide the Results 
+* https://stackoverflow.com/questions/28236608/how-to-open-div-smoothly */
+#holderEntry.active {
+  max-height: 1000px;
+}
+#holderEntry .title {
+  color: var(--main-text-color);
+}
+
+#entryHolder {
+  font-size: 25px;
+  align-items: center;
+  height: 100px;
+  display: grid;
+  grid-template-rows: 65%;
+  grid-template-columns: 50% 50%;
+}
+
+#date,
+#location {
+  font-size: 30px;
+}
+
+.headline {
+  text-align: center;
+  padding: 10px;
+  background-color: #00000075;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+input,
+textarea {
+  display: block;
+  height: 49px;
+  width: 30%;
+  background: var(--sec-color);
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 25px;
+}
+
+textarea {
+  background: var(--sec-color);
+  width: 35%;
+}
+
+button {
+  width: 161px;
+  height: 42px;
+  background: var(--main-color);
+  color: #f0d43a;
+  font-size: 23px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 41px;
+  box-shadow: 2px 4px 5px #444;
+  margin: 0 auto 40px;
+  transition: 0.8s ease;
+}
+button:hover {
+  background: #0c1e45e4;
+  opacity: 0.95;
+  color: #eee;
+  transform: scale(1.1);
+}
+.prompt-user {
+  margin: 70px auto 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: var(--sec-text-color);
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--main-text-color);
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--main-text-color);
+  font-family: "Oswald", sans-serif;
+}
