@@ -125,7 +125,7 @@ async function coverChange(temp) {
   let div = document.getElementById("app");
   if (temp !== "") {
     if (temp < 70) {
-      div.style.backgroundImage = "url(cold.jpg)";
+      div.style.backgroundImage = "url()";
     } else if (temp > 70) {
       div.style.backgroundImage = "url(hot.jpg)";
     }
