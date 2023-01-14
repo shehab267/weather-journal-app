@@ -10,7 +10,7 @@
 
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI.
 
-#### Render server *[Live demo](https://weather-journal-app-g1zz.onrender.com)*
+#### Render server _[Live demo](https://weather-journal-app-g1zz.onrender.com)_
 
 ## Setup and Run
 
@@ -28,7 +28,7 @@ This project requires you to create an asynchronous web app that uses Web API an
 
 3.  Automatically Switch the Background Cover based on the Temperature.
     - Examples for testing:
-      - New York ZipCode: 92328, 96795 _(**Worm**)_
+      - Death Valley, Miami ZipCode: 92328, 96795 _(**Worm**)_
       - Alaska ZipCode: 99507, 99508 _(**Cold**)_
 
 ## Results
