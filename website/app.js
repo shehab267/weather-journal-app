@@ -124,9 +124,9 @@ async function active() {
 async function coverChange(temp) {
   let div = document.getElementById("app");
   if (temp !== "") {
-    if (temp < 70) {
+    if (temp < 50) {
       div.style.backgroundImage = "url(cold.jpg)";
-    } else if (temp > 70) {
+    } else if (temp > 50) {
       div.style.backgroundImage = "url(hot.jpg)";
     }
   } else {

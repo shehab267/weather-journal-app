@@ -28,7 +28,7 @@ This project requires you to create an asynchronous web app that uses Web API an
 
 3.  Automatically Switch the Background Cover based on the Temperature.
     - Examples for testing:
-      - New York ZipCode: 10001, 10002, ... , 11201 _(**Worm**)_
+      - New York ZipCode: 92328, 96795 _(**Worm**)_
       - Alaska ZipCode: 99507, 99508 _(**Cold**)_
 
 ## Results
